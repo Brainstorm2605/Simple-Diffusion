@@ -14,20 +14,17 @@ This is a simple image generator built using the Stable Diffusion model and the 
 ## Requirements
 
 - Python 3.7+
-- PyTorch 
+- PyTorch with cuda
 - transformers
 - pillow
 - gradio
-- A Stable Diffusion checkpoint file (e.g., `v1-5-pruned-emaonly.ckpt`)
-- CLIP tokenizer files (`tokenizer_vocab.json` and `tokenizer_merges.txt`)
+- A Stable Diffusion checkpoint file v1-5-pruned-emaonly.ckpt ( https://huggingface.co/runwayml/stable-diffusion-v1-5/blob/main/v1-5-pruned-emaonly.ckpt )
 
 You can install the required Python packages using:
 
 ```bash
 python -m venv venv
-then
 venv/Scripts/Activate
-and lastly
 pip install -r requirements.txt
 
 To Run:
