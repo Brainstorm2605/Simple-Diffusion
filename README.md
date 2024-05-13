@@ -1,5 +1,7 @@
 # Simple Stable Diffusion Image Generator with Gradio
-
+# Important :
+Download this a Stable Diffusion checkpoint file v1-5-pruned-emaonly.ckpt ( https://huggingface.co/runwayml/stable-diffusion-v1-5/blob/main/v1-5-pruned-emaonly.ckpt ) and 
+then paste it inside the data folder with this name ( v1-5-pruned-emaonly.ckpt)
 This is a simple image generator built using the Stable Diffusion model and the Gradio library for a user-friendly interface. It uses the DDPM sampler for image generation. 
 
 ![Image Description](https://github.com/Brainstorm2605/Diffusion/blob/master/Image/Screenshot%202024-05-13%20145259.png)
