@@ -2,6 +2,8 @@
 
 This is a simple image generator built using the Stable Diffusion model and the Gradio library for a user-friendly interface. It uses the DDPM sampler for image generation. 
 
+![Image Description](https://github.com/Brainstorm2605/Diffusion/blob/master/Image/Screenshot%202024-05-13%20145259.png)
+
 ## Features
 
 - **Text-to-Image Generation:** Generate images from text prompts.
